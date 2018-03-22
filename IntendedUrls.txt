@@ -1,0 +1,7 @@
+Use the following adresses for the web pages.
+/index.html
+/login.html
+/new_account.html
+/new_event.html
+/event/<eventname>/review.html
+/event/<eventname>/view.html
