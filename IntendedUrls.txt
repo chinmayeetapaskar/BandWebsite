@@ -3,5 +3,15 @@ Use the following adresses for the web pages.
 /login.html
 /new_account.html
 /new_event.html
-/event/<eventname>/review.html
-/event/<eventname>/view.html
+/event/<event_name>/review.html
+/event/<event_name>/view.html
+
+Map
+any page -> /index
+/index -> /login, /new_event (logged in only)
+/login (POST) -> /login (faliure) | /new_event (success)
+/login -> /new_account
+/new_account (POST) -> /new_event (success)
+/new_event (POST) -> event/<event_name>/view (success)
+/event/<event_name>/view -> /event/<event_name>/review
+/event/<event_name>/review (POST) -> /event/<event_name>/view (success)
