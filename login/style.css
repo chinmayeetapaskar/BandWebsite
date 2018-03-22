@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.button{
+  background: coral;
+  padding: 10px 20px;
+  color: white;
+  font-size: 30px;
+  border: 0;
+}
+
+.button:hover{
+  background: darkgray;
+}
+
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: lightgray;
+  position: relative;
+  margin: 20% auto;
+  padding: 100px;
+  padding-top: 250px;
+  width: 50%;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.closeBtn {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  margin: auto;
+  position: absolute;
+  bottom: 45px;
+  right: 15%;
+  border-radius: 50px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.okayBtn {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  margin: auto;
+  position: absolute;
+  bottom: 45px;
+  left: 20%;
+  border-radius: 50px;
+
+}
+
+.okayBtn:hover, .okayBtn:focus {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.loginForm {
+  position: absolute;
+  top: 40%;
+  left: 26%;
+}
+
+.inputLabel {
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top:30px;
+  left: 36%;
+}
+
+.signUp {
+  color: blue;
+  position: absolute;
+  bottom: 5px;
+  left: 19%;
+}
+
+.signUp:hover, .okayBtn:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
